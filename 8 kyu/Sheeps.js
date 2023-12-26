@@ -6,3 +6,7 @@ function countSheeps(sheep) {
       }
     } return count
   }
+
+  function countSheeps(sheep) {
+    return sheep.filter(Boolean).length
+  }
